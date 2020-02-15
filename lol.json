@@ -1,0 +1,28 @@
+{
+    "url": "http://localhost:3000/feed/post",
+    "ok": false,
+    "status": 422,
+    "statusText": "Unprocessable Entity",
+    "headers": {
+        "map": {
+            "content-length": [
+                "137"
+            ],
+            "content-type": [
+                "application/json; charset=utf-8"
+            ]
+        }
+    },
+    "body": {
+        "message": "Validator failed, entered data is incorrect.",
+        "errors": [
+            {
+                "value": "j\n",
+                "msg": "Too short",
+                "param": "quote",
+                "location": "body"
+            }
+        ]
+    },
+    "bodyText": "{\"message\":\"Validator failed, entered data is incorrect.\",\"errors\":[{\"value\":\"j\\n\",\"msg\":\"Too short\",\"param\":\"quote\",\"location\":\"body\"}]}"
+}
