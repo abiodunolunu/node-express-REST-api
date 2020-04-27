@@ -8,7 +8,7 @@
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olunu Abiodun",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
